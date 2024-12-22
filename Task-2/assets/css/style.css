@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    background: #ff8a00;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.topbar .contact-info {
+    display: flex;
+    gap: 20px;
+}
+
+.topbar .contact-info span {
+    display: inline-block;
+}
+
+.topbar .social-icons a {
+    color: #fff;
+    margin-left: 10px;
+}
+
+/* NAvbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #ff8a00;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    color: #333;
+    font-weight: 500;
+}
+
+.btn {
+    background-color: #ff8a00;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background-color: #e07a00;
+}
+
+
+/* Hero Section */
+.hero-section {
+    background: url('https://www.wordcounttool.com/wp-content/uploads/2021/01/Used-books-in-book-store-1024x683.jpeg') no-repeat center center/cover;
+    text-align: center;
+    padding: 80px 20px;
+    color: #fff;
+}
+.hero-section a {
+    margin-top: 50px;
+}
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background: linear-gradient(to right, #ff8a00, #e07a00);
+    color: #fff;
+}
+
+.feature-box {
+    text-align: center;
+    width: 30%;
+}
+
+/* About  Us */
+.about-us {
+    padding: 50px 20px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+/* Services Section */
+.services {
+    padding: 50px 20px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service-box {
+    width: 30%;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.service-box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 15px 20px;
+}
